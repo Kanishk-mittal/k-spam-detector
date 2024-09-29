@@ -8,7 +8,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Define the URL of the model file
-model_url = 'http://your_remote_url/model.pkl'  # Replace with your actual URL
+model_url = 'https://raw.githubusercontent.com/Kanishk-mittal/k-spam-detector/refs/heads/main/model.pkl'  # Replace with your actual URL
 
 # Function to load the model directly from the URL
 def load_model_from_url(url):
