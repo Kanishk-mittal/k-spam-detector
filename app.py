@@ -5,6 +5,7 @@ import requests
 import io
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Define the URL of the model file
